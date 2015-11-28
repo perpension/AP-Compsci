@@ -28,7 +28,7 @@ public class Bicycle {
 	}
 }
 
-public class MountainBike extends Bicycle {
+class MountainBike extends Bicycle {
 	public int seatHeight;
 	
 	public void setHeight(int newValue){
