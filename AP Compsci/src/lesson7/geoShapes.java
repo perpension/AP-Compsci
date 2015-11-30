@@ -1,7 +1,7 @@
 package lesson7;
 
 import java.util.Scanner;
-
+//super
 public class geoShapes{
 	double side = 1;
 	
@@ -16,7 +16,7 @@ public class geoShapes{
 		return 0;
 	}
 }
-
+//sphere
 class Sphere extends geoShapes{
 	public Sphere(double side){
 		super();
@@ -50,7 +50,7 @@ class Sphere extends geoShapes{
 		return "Sphere \nCircumference: " + String.format("%.2f", getCirc())+ "\nSurface Area: " + String.format("%.2f", getSA()) + "\nVolume: " + String.format("%.2f", getVolume());
 	}
 }
-
+//tetra
 class Tetra extends geoShapes{
 	public Tetra(double side){
 		super();
@@ -83,7 +83,7 @@ class Tetra extends geoShapes{
 		return "Tetrahedron \nPerimeter: " + String.format("%.2f", getCirc()) + "\nSurface Area: " + String.format("%.2f", getSA()) + "\nVolume: " + String.format("%.2f", getVolume());
 	}
 }
-
+//cube
 class Cube extends geoShapes{
 	public Cube(double side){
 		super();
@@ -116,7 +116,7 @@ class Cube extends geoShapes{
 		return "Cube \nPerimeter: " + String.format("%.2f", getCirc()) + "\nSurface Area: " + String.format("%.2f", getSA()) + "\nVolume: " + String.format("%.2f", getVolume());
 	}
 }
-
+//driver
 class geoShapesTest{
 	public static void main(String[] args){
 		Scanner in = new Scanner(System.in);
