@@ -1,5 +1,3 @@
-package old;
-
 /**
  * Guessing number game
  * 
@@ -10,6 +8,7 @@ package old;
  * @return Aim higher!
  * @return Nice job!
  */
+package old;
 
 import java.util.Scanner;
 
